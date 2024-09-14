@@ -6,7 +6,7 @@ The purpose of this attack is to brute-force a set of username and password
 pairs to gain access to a machine via SSH. It is a preliminary attack, so
 there's not much complexity, nor do I plan to add extra complexity.
 
-{.toc}
+{:toc}
 
 ## Installation
 
