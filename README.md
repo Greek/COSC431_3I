@@ -1,6 +1,6 @@
-# SSH Batch Brute Force
+# SSH Brute Force
 
-This repository contains the source code for a SSH batch brute-force attack.
+This repository contains the source code for a SSH brute-force attack.
 
 The purpose of this attack is to brute-force a set of username and password
 pairs to gain access to a machine via SSH. It is a preliminary attack, so
