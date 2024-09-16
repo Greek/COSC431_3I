@@ -54,6 +54,7 @@ def main(args: ProgramArguments) -> None:
 
     print("")
 
+    paramiko.util.log_to_file("./logs/paramiko.log")
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
     for username in usernames:
