@@ -64,7 +64,6 @@ def main(args: ProgramArguments) -> None:
                     hostname=args.target,
                     username=username,
                     password=password,
-                    timeout=0.5,
                 )
 
                 _stdin, stdout, _stderr = client.exec_command("whoami")
